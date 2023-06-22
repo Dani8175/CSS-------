@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .button {
+            display: inline-block;
+            padding: 8px 20px; 
+            margin: 1px;
+            background-color: rgb(168, 183, 255);
+            color: white;
+            border-radius: 30px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-family: sans-serif;
+            transition: all 0.4s;
+           
+        }
+        
+        .button:hover{
+            background-color: rgb(240, 61, 61);
+            color:greenyellow
+        }
+        .button2 {
+
+            width: 20px;
+            padding: 10px 15px; 
+            margin: 2px;
+            background-color: rgb(106, 130, 249);
+            color: white;
+            border-radius: 30px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-family: sans-serif;
+            transition: all 0.4s;
+        }
+        .button2:hover{
+            background-color: rgb(255, 168, 245);
+            color:greenyellow
+        }
+        .button:focus{
+            outline: none;
+            box-shadow: 0 0 5px black;
+        }
+        .tstyle{
+            border-collapse: collapse;
+            border-color: white;
+            width: 300px;
+            height:100px;
+        }
+        th, td{
+            display: inlineblock;
+            border: px solid rgba(175, 188, 255, 0.87);
+            text-align: center;
+            font-weight: 100;
+            width: 50px;
+            height:10px;
+        }
+    </style>
+</head>
+<body>
+    <table class="tstyle">
+        <thead  style="font-size: 8px;">
+            <th class="button2" style="color: white;" >car</th>
+            <th class="button2" style="color: white;" >Hyundai</th>
+            <th class="button2" style="color: white;" >Audi</th>
+            <th class="button2" style="color: white;" >Ford</th>
+            <th class="button2" style="color: white;" >BMW</th>
+        </thead>
+        <tbody style="font-size: 7px;" >
+            <tr >
+                <td class="button" style="color: white;" >compact</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="button" style="color: white;" >midsize</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="button" style="color: white;" >sedan</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="button" style="color: white;" >SUV</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="button" style="color: white;" >sportcar</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
